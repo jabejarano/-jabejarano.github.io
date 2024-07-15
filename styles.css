@@ -11,7 +11,7 @@ body {
     line-height: 1.6;
     background-color: #f4f4f4;
     color: #333;
-    padding: 20px;
+    padding: 0 20px;
 }
 
 /* Estilos del menú de navegación */
@@ -54,10 +54,11 @@ body {
 .header {
     background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
     color: #fff;
-    padding: 60px 20px 10px; /* Ajustado para compensar el navbar fijo */
+    padding: 80px 20px 10px; /* Ajustado para compensar el navbar fijo */
     text-align: center;
     margin-bottom: 20px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
 }
 
 .header h1 {
@@ -146,7 +147,7 @@ body {
 
 /* Estilos del pie de página */
 .footer {
-    background: #333;
+    background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
     color: #fff;
     text-align: center;
     padding: 20px 0;
@@ -156,7 +157,7 @@ body {
 }
 
 .footer a {
-    color: #2575fc; /* Azul para los enlaces */
+    color: #00bfff; /* Azul cian para los enlaces */
     text-decoration: none;
     transition: text-decoration 0.3s ease, color 0.3s ease;
 }
