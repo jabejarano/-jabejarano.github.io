@@ -141,6 +141,21 @@ body {
     color: #004aad; /* Azul oscuro para los títulos de las demos */
 }
 
+/* Estilos de la sección de GIF */
+.gif-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px; /* Aumenta la separación entre los GIFs */
+    margin-top: 20px;
+}
+
+.gif-container img {
+    max-width: 100%;
+    max-height: 200px; /* Ajusta esta altura según sea necesario */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
 /* Estilos del pie de página */
 .footer {
     background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
